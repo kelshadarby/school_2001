@@ -55,7 +55,7 @@ class SchoolTest < Minitest::Test
   def test_it_can_calculate_if_school_is_full_time
     school1 = School.new('9:00', 7)
 
-    assert_equal "Yes", school1.is_full_time?
+    assert_equal true, school1.is_full_time?
   end
 
   def test_it_capitalizes_student_names
@@ -69,4 +69,4 @@ class SchoolTest < Minitest::Test
   end
 end
 
-require "pry"; binding.pry
+# require "pry"; binding.pry
