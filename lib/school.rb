@@ -21,7 +21,18 @@ class School
     @hours_in_school_day > 4
   end
 
+  def standard_student_names
+    @student_names.collect do |name|
+    letters = name.split('')
+    letters.first.upcase!
+    letters.join
+    end
+  end
+
 end
+
+# names = ["kelsha", "tommy", "jimothy"]
+
 
 
 
