@@ -30,25 +30,3 @@ class School
   end
 
 end
-
-# names = ["kelsha", "tommy", "jimothy"]
-
-
-
-
-
-# pry(main)> require './lib/school'
-# #=> true
-#
-# pry(main)> school = School.new('9:00', 7)
-# #=> #<School:0x007fcaf4957830 @hours_in_school_day=7, @start_time="9:00", @student_names=[]>
-#
-# pry(main)> school.is_full_time?
-# #=> true
-#
-# pry(main)> school.add_student_name('Aurora')
-# pry(main)> school.add_student_name('tim')
-# pry(main)> school.add_student_name('megan')
-#
-# pry(main)> school.standard_student_names
-# #=> ["Aurora", "Tim", "Megan"]

@@ -68,5 +68,3 @@ class SchoolTest < Minitest::Test
     assert_equal ['Aurora', 'Tim', 'Megan'], school.standard_student_names
   end
 end
-
-# require "pry"; binding.pry
